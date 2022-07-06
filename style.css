@@ -1,0 +1,38 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+#header {
+    text-align: center;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+.Donate-button {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: tomato;
+    padding: 2px;
+    border: hidden;
+    border-radius: 2px;
+}
+
+#Amount {
+    text-align: center;
+    color: black;
+
+}
+
+.Taka {
+    text-decoration: none;
+    color: gray;
+}
+
+#default {
+    text-decoration: none;
+    color: tomato;
+}
