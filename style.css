@@ -1,15 +1,15 @@
 body {
     font-family: 'Lato', sans-serif;
-
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #header {
-    text-align: center;
     background-image: url(Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
-
 }
 
 .Donate-button {
@@ -22,17 +22,71 @@ body {
 }
 
 #Amount {
-    text-align: center;
     color: black;
-
 }
 
 .Taka {
     text-decoration: none;
-    color: gray;
+    color: slategray;
+    background-color: silver;
+    padding: 15px;
+    border: hidden;
+    border-radius: 2px;
 }
 
 #default {
     text-decoration: none;
     color: tomato;
+    background-color: peachpuff;
+    padding: 15px;
+    border: hidden;
+    border-radius: 2px;
+}
+
+
+.plan-charts {
+    padding: 10px;
+    border: solid 10px white;
+}
+
+#med {
+    background-color: bisque;
+}
+
+#cloths {
+    background-color: cadetblue;
+}
+
+#blood {
+    background-color: darksalmon;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.extra-part {
+    padding: 100px;
+    text-align: justify;
+}
+
+footer {
+    background-color: darkslateblue;
+    padding: 5px;
+
+}
+
+#footer {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bonus-point {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+#last-id {
+    color: azure;
+    background-color: red;
+    text-decoration: none;
 }
